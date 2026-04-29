@@ -1,17 +1,29 @@
 body {
     font-family: Roboto;
+}
 
+button {
+    background-color:#3882f6;
+    color: #eeeeee;
 }
 
 .header {
     background-color: #1f2937;
+    display:flex;
+    color: #eeeeee;
 }
 
-.sectionOne {
-    
+.hero {
+    background-color: #1f2937;
+    color:#eeeeee;
+    display: flex;
+    padding: 48px;
+    gap:20px;
+    flex-direction: row;
+    align-items: center;
 }
 
-.sectionTwo {
+.infoBlurbs {
     
 }
 
@@ -24,7 +36,7 @@ body {
 }
 
 .callToAct {
-    
+
 }
 
 .footer {
