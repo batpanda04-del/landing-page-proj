@@ -1,5 +1,8 @@
 body {
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 button {
@@ -7,10 +10,30 @@ button {
     color: #eeeeee;
 }
 
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
 .header {
     background-color: #1f2937;
     display:flex;
     color: #eeeeee;
+    justify-content: space-between;
+}
+
+.headLinks {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
 }
 
 .hero {
@@ -21,10 +44,23 @@ button {
     gap:20px;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+.heroImg {
+    display: flex;
+    height: 250px;
+    width: auto;
+    padding: 16px;
 }
 
 .infoBlurbs {
-    
+    display: flex;
+    justify-content: center;
+}
+
+.blurbBox {
+
 }
 
 
@@ -33,12 +69,32 @@ button {
     text-size: 36 px;
     color: #1f2937;
     text-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.callBox {
+    margin: 48px;
 }
 
 .callToAct {
+    background-color: #3882f6;
+    color: #eeeeee;
+    display: flex;
+}
 
+.actText {
+    display: flex;
+    flex-direction: column;   
+}
+
+.actButton {
+    
 }
 
 .footer {
-    
+    background-color: #1f2937;
+    color: #eeeeee;
+    display: flex;
+    justify-content: center;
 }
