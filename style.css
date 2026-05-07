@@ -2,12 +2,22 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
+    justify-content: center
+    align-items: center;
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
 
 button {
     background-color:#3882f6;
     color: #eeeeee;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    flex-shrink: 0;
+    border: 0;
 }
 
 ul  {
@@ -27,7 +37,8 @@ a {
     background-color: #1f2937;
     display:flex;
     color: #eeeeee;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 250px;
 }
 
 .headLinks {
@@ -81,6 +92,8 @@ a {
     background-color: #3882f6;
     color: #eeeeee;
     display: flex;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .actText {
@@ -89,7 +102,16 @@ a {
 }
 
 .actButton {
-    
+    border-color: #eeeeee;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* specific to the button in the bottom section */
+#buttonAction {
+    border: 2px solid #eeeeee;
 }
 
 .footer {
