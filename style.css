@@ -2,9 +2,9 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0;
-    padding: 0;
+    width: 100%;
     height: 100%;
 }
 
@@ -31,6 +31,11 @@ a {
     text-decoration: none;
     color: #eeeeee;
 }
+
+q {
+    quotes: none;
+}
+
 
 .header {
     background-color: #1f2937;
@@ -74,13 +79,14 @@ a {
 }
 
 
-.quote {
+.quoteBox {
     background-color: #e5e7eb;
-    text-size: 36 px;
+    font-size: 36 px;
     color: #1f2937;
-    text-weight: 900;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 48px;
 }
 
 .callBox {
